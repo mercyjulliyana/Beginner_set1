@@ -1,4 +1,3 @@
-package Guvi;
 import java.util.*;
 public class PosNeg {
 	public static void main(String args[]) {
@@ -9,8 +8,11 @@ public class PosNeg {
      if( n < 0) {
     	 System.out.println("negative number");
      }
-     else {
+     else if(n>0) {
     	 System.out.println("positive number");
+     }
+     else {
+    	 System.out.println("Zero");
      }
 
 }
