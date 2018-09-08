@@ -1,19 +1,17 @@
 
 import java.util.*;
-public class Greatestnumber {
+public class Leapyear {
 public static void main(String args[]) {
-int a,b,c;
-System.out.println("enter the 3 integer");
-Scanner sc = new Scanner (System.in);
-a=sc.nextInt();
-b=sc.nextInt();
-c=sc.nextInt();
-if(a>b) {
-	System.out.println(+a);
-}else if(b>c) {
-	System.out.println(+b);
-}else {
-	System.out.println(+c);
-}
+	Scanner sc = new Scanner(System.in);
+	System.out.println("enter a year");
+	int year=sc.nextInt();
+	
+	if(year%4==0) {
+		System.out.println("yes");
+	}
+	else {
+		System.out.println("no");
+	}
+	
 }
 }
